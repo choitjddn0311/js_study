@@ -40,3 +40,5 @@ console.log('---------------------');
  */
 const codeFactory = '코드팩토리';
 console.log(typeof codeFactory);
+
+// 강의 06:01
