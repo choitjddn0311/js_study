@@ -41,4 +41,15 @@ console.log('---------------------');
 const codeFactory = '코드팩토리';
 console.log(typeof codeFactory);
 
-// 강의 06:01
+const ive = "'아이브' 안유진";
+console.log(ive);
+
+/**
+ * Template Literal
+ * 
+ * Escaping Character
+ * 1) newline -> \n
+ * 2) tab -> \t
+ * 3) 백슬레리를 스트링으로 표현하고 싶다면 두번입력하면됨
+ */
+const iveYuJin = '아이브안유진';
