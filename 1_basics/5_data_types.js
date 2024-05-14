@@ -56,3 +56,47 @@ const iveYuJin = '아이브안유진';
 console.log(iveYuJin);
 const iveWonYoung = '아이브\t장원영';
 console.log(iveWonYoung);
+const backSlash = '아이브\\코드팩토리';  // ??? 뭔데 이년
+console.log(backSlash);
+const smallQutoation = '아이브\'코드팩토리';
+console.log(smallQutoation);
+
+const iveWonYoung2 = `아이브
+장원영`;
+console.log(iveWonYoung2);
+console.log(typeof iveWonYoung2);
+
+const groupName = '아이브';
+console.log(groupName + ' 안유진'); //너네 둘이 똑같음
+console.log(`${groupName} 안유진`); //너네 들이 똑같음
+
+/**
+ * Boolean 타입
+ */
+const isTrue = true;
+const isFalse = false;
+console.log(typeof isTrue);
+console.log(typeof isFalse);
+
+/**
+ * Undefined
+ * 
+ * 사용자가 직접 값을 초기화하지 않았을때
+ * 지정되는 값이다
+ * 
+ * 직접 undefined로 값을 초기화하는건 지양해야한다
+ */
+let noInit;
+console.log(noInit);
+console.log(typeof noInit);
+
+/**
+ * null 타입
+ * 
+ * undefined와 마찬가지로 값이 없다는 뜻이나
+ * JS에서는 개발자가 명시적으로 없는 값으로 초기화할때
+ * 사용된다.
+ */
+let init = null;
+console.log(init);
+console.log(typeof init);  
