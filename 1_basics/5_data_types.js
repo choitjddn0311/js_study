@@ -53,3 +53,6 @@ console.log(ive);
  * 3) 백슬레리를 스트링으로 표현하고 싶다면 두번입력하면됨
  */
 const iveYuJin = '아이브안유진';
+console.log(iveYuJin);
+const iveWonYoung = '아이브\t장원영';
+console.log(iveWonYoung);
