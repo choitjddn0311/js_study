@@ -77,6 +77,48 @@ sample = '안유진';
 // NaN -> Not a Number
 console.log(+sample);
 
-sample = 99;
+sample = '99';
 console.log(-sample);
 console.log(typeof -sample);
+
+/**
+ * 할당연산자(assignment operator)
+ */
+number = 100;
+console.log(number);
+
+number += 10;
+console.log(number)
+
+number -= 10;
+console.log(number);
+
+number *=10;
+console.log(number);
+
+number /= 10;
+console.log(number);
+
+number %= 10;
+console.log(number);
+
+/**
+ * 비교연산자
+ * 
+ * 1) 값의 비교
+ * 2) 값과 타입의 비교
+ */
+
+console.log(5 == 5);
+console.log(5 == '5');
+console.log(0 == '');
+console.log(true == 1);
+console.log(false == 0);
+console.log(true == '1');
+
+console.log(5 === 5);
+console.log(5 === '5');
+console.log(0 === '');
+console.log(true === 1);
+console.log(false === 0);
+console.log(true === '1');
