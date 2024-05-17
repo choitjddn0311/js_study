@@ -203,3 +203,26 @@ console.log(false && '아이브');
 console.log(true && '아이브');
 
 console.log(true && true && '아이브');
+console.log(true && false && '아이브');
+
+/**
+ * 지수 연산자
+ */
+console.log(2 ** 2);
+console.log(10 ** 3);
+
+/**
+ * null 연산자
+ */
+let name;
+console.log(name);
+
+name =  name ?? '코드팩토리';
+console.log(name);
+
+name = name ?? '아이브';
+console.log(name);
+
+let name2;
+name2 ??= '코드팩토리';
+console.log(name2);
