@@ -122,3 +122,17 @@ console.log(suckFamily.map((x) => {
 }));
 
 console.log(suckFamily);
+
+// filter()
+nums = [1,8,7,6,3];
+
+console.log(nums.filter((x) => x % 2 !== 0));
+
+//find()
+console.log(nums.find((x) => x % 2 === 0));
+
+//findIndex()
+console.log(nums.findIndex((x) => x % 2 === 0)); //파인드와 똑같은데 인덱스 번호가뜸
+
+//reduce()
+console.log(nums.reduce((p,n) => p + n ,0));
