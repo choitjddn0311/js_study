@@ -135,4 +135,4 @@ console.log(nums.find((x) => x % 2 === 0));
 console.log(nums.findIndex((x) => x % 2 === 0)); //파인드와 똑같은데 인덱스 번호가뜸
 
 //reduce()
-console.log(nums.reduce((p,n) => p + n ,0));
+console.log(nums.reduce((p,n) => p + n ,0)); //작동순서 처음엔 p에 두번째 parameter로 넣은 0이 p에 들어가게 되고 loop돌고 n에 array값이 하나씩들어가고 p에 반환한다 즉 n = 1 이니까 0+1 --> p로 이동 array에 있는 모든값이 다들어갈때까지 loop도니까 array에 있는 수 모두 더해서 25가 출력됨
