@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #d1c58d;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    background: pink;
+}
+.contain {
+    margin: 10px;
+    padding: 20px;
+    background: hotpink;
+    border-radius: 10px;
+}
+.contain2 {
+    margin: 10px;
+    padding: 70px;
+    background: hotpink;
+    border-radius: 10px;
+}
+.draggable {
+    opacity: 0.5;
+}
